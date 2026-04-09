@@ -1,10 +1,13 @@
 cabal-version:   3.0
 name:            example
 version:         0.1.0.0
-license:         NONE
-author:          Joe
-maintainer:      joe@example.com
+license:         MIT
+author:          TheMhv
+maintainer:      TheMhv@proton.me
 build-type:      Simple
+
+library
+    exposed-modules: Study.Type
 
 common warnings
     ghc-options: -Wall
