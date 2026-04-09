@@ -1,4 +1,7 @@
 module Main where
 
+doubleMe :: Int -> Int
+doubleMe x = x + x
+
 main :: IO ()
-main = putStrLn "Hello, Haskell!"
+main = putStrLn (show (doubleMe 2))
