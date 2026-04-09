@@ -1,10 +1,10 @@
+{-# LANGUAGE NoImplicitPrelude #-}
+
 module Main where
 
-import Booleans
-
-doubleMe :: Int -> Int
-doubleMe x = x + x
+import Study.Type
+import Prelude (IO, putStrLn)
 
 main :: IO ()
 -- main = putStrLn (show (doubleMe 2))
-main = putStrLn (showBool T)
+main = putStrLn (showBool True)
