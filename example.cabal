@@ -7,7 +7,7 @@ maintainer:      TheMhv@proton.me
 build-type:      Simple
 
 library
-    exposed-modules: Study.Type
+    exposed-modules: Study.Types.Bool
 
 common warnings
     ghc-options: -Wall

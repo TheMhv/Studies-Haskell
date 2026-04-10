@@ -1,6 +1,6 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 
-module Study.Type where
+module Study.Types.Bool where
 
 import Prelude (String)
 

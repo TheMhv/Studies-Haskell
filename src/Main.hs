@@ -2,7 +2,7 @@
 
 module Main where
 
-import Study.Type
+import Study.Types.Bool
 import Prelude (IO, putStrLn)
 
 main :: IO ()
