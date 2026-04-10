@@ -2,7 +2,7 @@
 
 module Study.Types.Bool where
 
-import Prelude (String)
+import Study.Classes
 
 -- Bool
 data Bool = False | True
@@ -59,6 +59,6 @@ xnorBool True b = b
 xnorBool False b = negBool b
 
 -- Show
-showBool :: Bool -> String
-showBool False = "False"
-showBool True = "True"
+instance Show Bool where
+  show False = "False"
+  show True = "True"
