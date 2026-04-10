@@ -7,7 +7,7 @@ maintainer:      TheMhv@proton.me
 build-type:      Simple
 
 library
-    exposed-modules: Study.Classes, Study.Types.Bool, Study.Types.Maybe
+    exposed-modules: Study.Classes, Study.Types.Bool, Study.Types.Maybe, Study.Types.Bits
 
 common warnings
     ghc-options: -Wall

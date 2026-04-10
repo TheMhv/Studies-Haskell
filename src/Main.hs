@@ -3,9 +3,8 @@
 module Main where
 
 import Study.Classes
-import Study.Types.Bool
-import Study.Types.Maybe
+import Study.Types.Bits
 import Prelude (IO, putStrLn)
 
 main :: IO ()
-main = putStrLn (show (isSome (None)))
+main = putStrLn (show (I (O (I E))))
