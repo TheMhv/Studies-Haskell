@@ -6,4 +6,4 @@ import Study.Type
 import Prelude (IO, putStrLn)
 
 main :: IO ()
-main = putStrLn (showBool (eqBool False True))
+main = putStrLn (showBool (xnorBool False False))
